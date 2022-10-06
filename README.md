@@ -40,7 +40,7 @@
 다른 버전 관리 시스템: 폴더의 파일 전체를 복사 <br>
 깃: 41바이트를 가지는 해시(SHA1) 파일 하나만 만들면 됨
 
-### 6.2 실습 준비 <br>
+## 6.2 실습 준비 <br>
 깃은 기본적으로 **master** 브랜치를 하나 가지고 있음 <br>
 브랜치는 **HEAD 포인터**를 가지고 있음
 
@@ -48,12 +48,12 @@
 ### 6.2.1 저장소 생성 및 초기화 <br>
 브랜치 실습을 위한 환경 구축 <br>
 <hr>
-> $ cd 메인폴더
-> $ mkdir gitstudy06 -------- 새 폴더 만들기
-> $ cd gitstudy06
+> $ cd 메인폴더 <br>
+> $ mkdir gitstudy06 -------- 새 폴더 만들기 <br>
+> $ cd gitstudy06 <br>
 
 infoh@DESKTOP MINGW64 /e/gitstudy06 <br>
-> $ git init -------- 저장소 초기화
+> $ git init -------- 저장소 초기화 <br>
 initialized empty Git repository in E:/gitstudy06/.git/ <br>
 <hr>
 
