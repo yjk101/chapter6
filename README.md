@@ -52,9 +52,9 @@
 > $ mkdir gitstudy06 -------- 새 폴더 만들기
 > $ cd gitstudy06
 
-infoh@DESKTOP MINGW64 /e/gitstudy06
+infoh@DESKTOP MINGW64 /e/gitstudy06 <br>
 > $ git init -------- 저장소 초기화
-initialized empty Git repository in E:/gitstudy06/.git/
+initialized empty Git repository in E:/gitstudy06/.git/ <br>
 <hr>
 
 깃 배시에서 초기화 명령어를 실행, 저장소가 초기화되면 터미널 프롬프트 창에 현재 브랜치 이름이 같이 출력
@@ -72,19 +72,19 @@ infoh@DESKTOP MINGW64 /e/gitstudy06 (master)
 첫 번째 커밋은 master 브랜치에서 시작 <br>
 초기화한 후에 status 명령어를 실행
 <hr>
-infoh@DESKTOP MINGW64 /e/gitstudy06 (master)
+infoh@DESKTOP MINGW64 /e/gitstudy06 (master) <br>
 > $ git status
-On branch master -------- 브랜치 작업 위치
-No commits yet
-nothing to commit (create/copy files and use "git add" to track)
+On branch master -------- 브랜치 작업 위치 <br>
+No commits yet <br>
+nothing to commit (create/copy files and use "git add" to track) <br>
 <hr>
 status 명령어의 출력 결과 메시지에서 "On branch master"를 확인할 수 있음 <br>
 깃에서는 항상 현재 작업하는 브랜치 위치를 확인하는 것이 중요 <br>
 또는 branch 명령어로 현재 브랜치를 확인할 수 있음
 <hr>
-infoh@DESKTOP MINGW64 /e/gitstudy06 (master)
-> $ git branch -------- 브랜치 목록
-* master
+infoh@DESKTOP MINGW64 /e/gitstudy06 (master) <br>
+> $ git branch -------- 브랜치 목록 <br>
+* master 
 <hr>
 branch 명령어는 생성된 모든 브랜치를 출력함 <br>
 깃에서 기본적으로 선택되는 브랜치는 master <br>
