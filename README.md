@@ -48,18 +48,18 @@
 ### 6.2.1 저장소 생성 및 초기화 <br>
 브랜치 실습을 위한 환경 구축 <br>
 
-> $ cd 메인폴더 <span style="color:orange"> <br>
-> $ mkdir gitstudy06 <span style="color:orange"> -------- 새 폴더 만들기 <br>
-> $ cd gitstudy06 <span style="color:orange"> <br>
+> <span style="color:orange"> $ cd 메인폴더 </span> <br>
+> <span style="color:orange">$ mkdir gitstudy06 </span> -------- 새 폴더 만들기 <br>
+> <span style="color:orange">$ cd gitstudy06 </span> <br>
 > infoh@DESKTOP MINGW64 /e/gitstudy06 <br>
-> $ git init <span style="color:orange"> -------- 저장소 초기화 <br>
+> <span style="color:orange">$ git init </span> -------- 저장소 초기화 <br>
 > initialized empty Git repository in E:/gitstudy06/.git/
 
 
 깃 배시에서 초기화 명령어를 실행, 저장소가 초기화되면 터미널 프롬프트 창에 현재 브랜치 이름이 같이 출력
 
 > infoh@DESKTOP MINGW64 /e/gitstudy06 
-  (master)<span style="color:orange">
+  <span style="color:orange">(master)</span>
 
 
 현재 브랜치가 master라는 것을 확인할 수 있음 <br>
@@ -73,9 +73,9 @@
 초기화한 후에 status 명령어를 실행
 
 > infoh@DESKTOP MINGW64 /e/gitstudy06 
-  (master) <span style="color:orange"> <br>
-> $ git status <span style="color:orange"> <br>
-> On branch master <span style="color:orange"> -------- 브랜치 작업 위치  <br>
+  <span style="color:orange">(master) </span> <br>
+> <span style="color:orange">$ git status </span> <br>
+> <span style="color:orange">On branch master </span> -------- 브랜치 작업 위치  <br>
 > No commits yet  <br>
 > nothing to commit (create/copy files and use "git add" to track)  <br>
 
@@ -84,8 +84,8 @@ status 명령어의 출력 결과 메시지에서 "On branch master"를 확인�
 또는 branch 명령어로 현재 브랜치를 확인할 수 있음
 
 > infoh@DESKTOP MINGW64 /e/gitstudy06 
-  (master) <span style="color:orange"> <br>
-> $ git branch <span style="color:orange"> -------- 브랜치 목록  <br>
+  <span style="color:orange">(master) </span> <br>
+> <span style="color:orange">$ git branch </span> -------- 브랜치 목록  <br>
 >* master 
 
 branch 명령어는 생성된 모든 브랜치를 출력함 <br>
