@@ -83,7 +83,7 @@ status 명령어의 출력 결과 메시지에서 "On branch master"를 확인�
 
 > infoh@DESKTOP MINGW64 /e/gitstudy06 (master)  <br>
 > $ git branch -------- 브랜치 목록  <br>
-> * master 
+>* master 
 
 branch 명령어는 생성된 모든 브랜치를 출력함 <br>
 깃에서 기본적으로 선택되는 브랜치는 master <br>
